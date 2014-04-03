@@ -1,0 +1,19 @@
+.flexbox {
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+}
+.flexbox2 {
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-justify-content: flex-beginning;
+	-webkit-flex-wrap: wrap;
+}
+
+
+.btn > img {
+max-width: 25%;
+padding-right: 2%;
+
+}

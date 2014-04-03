@@ -1,0 +1,57 @@
+body {
+	background-color: #999
+}
+
+
+.container {
+	font-family: "DIN Condensed";
+	font-stretch: 80%;
+	background-color: white;
+	height: auto;
+	min-width: 500px;
+	max-width: 1000px;
+	margin:0% 10%;
+}
+
+
+header {
+
+	height: 275px;
+}
+
+
+
+.text {
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+article {
+	margin-right: 10px;
+}
+.column-content {
+	display: inline-block;
+	width: 65%;
+/*	border: solid red;*/
+}
+.column-3 {
+	padding-top: 20px;
+	display: inline-block;
+	width: 30%;
+/*	border: solid red;*/
+}
+
+.text {
+
+}
+
+
+
+
+footer {
+	display: inline-block;
+	height: 50px;
+	background-color: #00688b;
+	width: 100%;
+}

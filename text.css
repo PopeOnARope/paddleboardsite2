@@ -1,0 +1,65 @@
+
+
+h2 {
+	font-family: Helvetica;
+	font-size: .75em;
+	font-weight: 100;
+	color: blue;
+	letter-spacing: -1;
+}
+h3 {
+	
+	font-size: .75em;
+
+	margin: 0;
+	
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 2.75em;
+	margin-bottom: 5px;
+
+}
+h4 {
+	font-size: .75em;
+	margin-top: 10px;
+}
+
+header > h1 {
+	font-size: 60px;
+	color: white;
+	padding-top: 100px;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+p {
+	font-family: Helvetica;
+	font-weight: 75;
+	font-size: .75em;
+}
+
+.center {
+	text-align: center;
+}
+
+.faded {
+	color: #999;
+	margin: -5px 0 0 0;
+}
+.pop {
+	text-align: center;
+	border-top: solid #DDD;
+}
+
+a {
+	text-decoration: none;
+	color: #999;
+}
+.dark {
+	color: blue;
+}
+.darker {
+	color: 00688b;
+}

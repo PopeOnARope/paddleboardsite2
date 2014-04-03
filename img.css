@@ -1,0 +1,17 @@
+header {
+	background-image: url("img/header.jpg");
+	background-color: blue;
+}
+.pb {
+	padding-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+.faceicon {
+	width: 20px;
+}
+
+.bottom {
+	margin-top: -8px;
+width: 100%;
+}
