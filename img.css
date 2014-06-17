@@ -2,16 +2,44 @@ header {
 	background-image: url("img/header.jpg");
 	background-color: blue;
 }
-.pb {
-	padding-top: 15px;
-	margin-bottom: 15px;
-	width: 100%;
-}
+
 .faceicon {
 	width: 20px;
 }
 
 .bottom {
-	margin-top: -8px;
-width: 100%;
+	background-color: mediumblue;
+	width: 100%;
+
 }
+.bottom > div {
+	display: inline-block;
+	width: 24.5%;
+	margin: 0%;
+
+}
+.bottom img {
+	display: inline;
+	width: 100%;
+	padding: 0%;
+	border: none;
+	opacity: 0.75;
+	-webkit-transition: ease;
+}
+.bottom > div > img:hover {
+	opacity: 1;
+	-webkit-transition: .25s all ease;
+}
+.bottom > div > h1{
+
+	margin-top: -40px;
+	font-size: 1em;
+	opacity: 1;
+}
+.white {
+	display: block;
+	color: white;
+	font-size: 45px;
+	-webkit-transition: .25s all ease;
+}
+

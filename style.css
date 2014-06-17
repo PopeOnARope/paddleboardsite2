@@ -1,6 +1,4 @@
-body {
-	background-color: #999
-}
+
 
 
 .container {
@@ -8,7 +6,7 @@ body {
 	font-stretch: 80%;
 	background-color: white;
 	height: auto;
-	min-width: 500px;
+	min-width: 550px;
 	max-width: 1000px;
 	margin:0% 10%;
 }
@@ -18,8 +16,6 @@ header {
 
 	height: 275px;
 }
-
-
 
 .text {
 	margin-left: 50px;
@@ -46,12 +42,31 @@ article {
 
 }
 
-
-
-
 footer {
 	display: inline-block;
 	height: 50px;
 	background-color: #00688b;
 	width: 100%;
+}
+.pb {
+	padding-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+@media (max-width: 720px) {
+	.container{
+		margin: 0px;
+		width: 100%;
+	}
+	.column-content{
+		width: 100%;
+	}
+	.column-3{
+		width: 100%;
+	}
+	.pb{
+		width: 20%;
+		margin: 1% 40% 1% 40%;
+	}
 }
